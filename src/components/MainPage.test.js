@@ -7,7 +7,7 @@ let wrapper;
 
 beforeEach(() => {
   const mockProps = {
-    onRequestRobots: jest.fn(),
+    onRequestRobots: jest.fn(),//
     robots: [],
     searchField: '',
     isPending: false
